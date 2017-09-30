@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import TodoList from './containers/TodoList';
 import Home from './containers/Home';
 import About from './containers/About';
+import NotFound from './containers/NotFound';
 
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
@@ -34,6 +35,7 @@ const App = () => (
         <Route exact path='/' component={ Home } />
         <Route exact path='/todolist' component={ TodoList } />
         <Route exact path='/about' component={ About } />
+        <Route path='*' component={ NotFound } />
       </Switch>
     </ConnectedRouter>
   </Provider>

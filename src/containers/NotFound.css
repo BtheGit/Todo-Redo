@@ -1,0 +1,16 @@
+.notfound-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  color: white;
+  font-size: 6em;
+}
+
+.notfound-container .notfound-link {
+  color: white;
+  font-size: 25px;
+}
