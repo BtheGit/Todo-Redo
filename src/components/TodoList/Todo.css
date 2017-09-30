@@ -1,0 +1,18 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 25px;
+  cursor: pointer;
+  user-select: none;
+  padding: 5px 0;
+}
+
+.todo:nth-child(even) {
+  background-color: rgba(0,0,0,0.05);
+}
+
+.todo-complete .todo-text{
+  text-decoration: line-through;
+}

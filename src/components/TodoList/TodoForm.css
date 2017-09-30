@@ -1,0 +1,23 @@
+.todo-form {
+  width: 100%;
+  padding: 15px;
+}
+
+.todo-form *:focus {
+  outline: none;
+}
+
+.todo-form form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.todo-form input {
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 25px;
+}
